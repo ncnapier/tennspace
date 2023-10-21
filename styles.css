@@ -94,6 +94,9 @@ h1{
     
     
 }
+.sub-item-tree{
+    display: flex;
+}
 .sub-menu-item{
     text-decoration: none;
     list-style: none;
