@@ -96,6 +96,7 @@ h1{
 }
 .sub-item-tree{
     display: flex;
+    flex-direction: row;
 }
 .sub-menu-item{
     text-decoration: none;
