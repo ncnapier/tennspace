@@ -2,6 +2,39 @@
 *{
     box-sizing: border-box;
 }
+
+/* Larger than mobile
+@media (min-width: 400px) {
+    #section1, #donate_box, #donate_img{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-self: center !important;
+    }
+    .minor_section1_quote{
+        font-size: 20px !important;
+        margin: 10px, 10px !important
+    }
+    #barn_img{
+        width: auto !important;
+    }
+    /* Styles for tablets and larger screens */
+  
+   
+  /* Larger than landscape phone */
+  @media (min-width: 768px) {
+    /* Styles for landscape phones and larger screens */
+  }
+  
+  /* Larger than portrait phone */
+  @media (min-width: 992px) {
+    /* Styles for portrait phones and larger screens */
+  }
+  
+  /* Larger than small desktop */
+  @media (min-width: 1200px) {
+    /* Styles for small desktops and larger screens */
+  }
+
 body{
     margin: 0;
 }
